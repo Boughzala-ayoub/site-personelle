@@ -1,0 +1,14 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+
+    <ul>
+    <div>
+      <h1>Accueil</h1>
+      <a href="{% url 'polls:detail' %}" class="button">Resumé</a><br>
+      <a href="{% url 'polls:cv' %}" class="button">CV</a><br>
+      <a href="{% url 'polls:contact' %}" class="button">Contact</a>
+      
+    </div>
+
+    </ul>

@@ -1,0 +1,61 @@
+div{
+
+  position: relative;
+  border: 3px solid green
+  padding: 30px 60px;
+
+  margin: 0;
+
+  top: 50%;
+
+
+}
+a.button {
+
+    appearance: button;
+    text-align: inherit;
+    color: green;
+    font-size: 200%;
+    display: inline-block;
+    padding: 20px 25px;
+    width: 30%;
+    background-color: #C0D6D2;
+    border: 3px solid blue;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+
+}
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+
+a {
+    color: green;
+    margin: auto;
+}
+body {
+
+
+/*.bg-img {
+    background-image: url("simages/téléchargement55.gif");*/
+
+    /*background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;*/
+    background: white url("images/back2.gif") no-repeat;
+    background-size: cover;
+
+
+
+
+
+}
+h1{
+  font-family:verdana;
+  font-size:300%;
+  color: black;
+
+}
